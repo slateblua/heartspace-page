@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-  }, base: 'heartspace-page',
+  }, base: '/heartspace-page/',
   plugins: [
     react(),
     mode === 'development' &&
